@@ -3,5 +3,6 @@
 void main()
 {
     HowCharWorks();
+    HowStringVectorWorks();
     _getch();
 }

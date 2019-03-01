@@ -50,5 +50,14 @@ void HowCharWorks()
 
 void HowStringVectorWorks()
 {
-    //vector <string> sChars;
+    vector <string> sString;
+    string sAddString ;
+    for(int i =0; i < 3; i++)
+    {
+        cin >> sAddString;
+        sString.push_back(sAddString);
+    }
+    for(int i =0; i < 3; i++)
+        cout<< sString[i] << endl;
+
 }
